@@ -3,7 +3,7 @@
 ## Installing Anaconda and OpenAI gym
 
 * Download and install Anaconda [here](https://www.anaconda.com/download)
-* Install OpenAI gym
+* Install OpenAI gym # Gym 是一个用于开发和比较强化学习算法的工具包
 ```
 pip install gym
 pip install gym[atari]
@@ -13,7 +13,7 @@ pip install gym[atari]
 
 * Play with the environment
 ```
-import gym
+import gym 
 env = gym.make('CartPole-v0')
 env.reset()
 for _ in range(1000):
